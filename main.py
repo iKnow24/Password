@@ -19,16 +19,11 @@ while True:
         p = input("What is the password:")
         p = (" Password: " + p)
         
+        # Setting A custom name for the file.       
         x = (x + "Credentials.txt")
-        
-        
-        
-        
-        
-        
-
-        
-
+         
+      
+        # The things we add to the file.
         f = open(x, "w")
         f.write(y)
         f.write(p)
